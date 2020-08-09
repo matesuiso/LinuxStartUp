@@ -1,0 +1,22 @@
+wm -> i3-wm -> i3lock -> i3status -> dmenu -> compton
+
+console utilities
+	-> cmus		<--> listen to music
+	-> ranger	<--> file manager
+	-> wpa_supplicant <--> wifi connection
+	-> vim, nano	<--> text editor
+	-> pulseaudio 	<--> audio config (?)
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->
+
+
+with interface
+	-> evince	<--> .pdf reader
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->
+	-> 	<-->

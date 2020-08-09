@@ -1,0 +1,8 @@
+# window to make visible applicatins
+export DISPLAY=:0
+
+# Reconfig disks
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+#
+$ xinit /usr/bin/firefox $* -- :1

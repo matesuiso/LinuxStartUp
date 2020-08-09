@@ -1,0 +1,5 @@
+#!/bin/bash
+bluetoothctl << EOF
+power on
+connect <bt MAC>
+EOF
