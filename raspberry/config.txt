@@ -1,5 +1,7 @@
 # See /boot/overlays/README for all available options
 
+# crt monitor i think..
+
 gpu_mem=64
 initramfs initramfs-linux.img followkernel
 hdmi_cvt=1024 768 60 1
