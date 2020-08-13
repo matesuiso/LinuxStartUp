@@ -6,3 +6,13 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 #
 $ xinit /usr/bin/firefox $* -- :1
+
+# connect to windows remote desktop
+rdesktop -g 100% -P -z -x l -r sound:off -u <win user> -p <win pass> <ip win server>
+
+# Mount windows shared directory
+sudo mount.cifs <windows directory> <Local dir> -o user=<User> ,password=<Pass>
+#ex: sudo mount.cifs //192.168.1.0/S /media/tmp/ -o user=Admin,password=Pass
+
+# ssh service
+sudo systemctl <start/stop/enable/disable> sshd.service sshd.socket
