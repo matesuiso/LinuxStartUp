@@ -1,14 +1,15 @@
 wm -> i3-wm -> i3lock -> i3status -> dmenu -> compton
 
 console utilities
-	-> cmus		<--> listen to music
+	-> cmus		<--> music
 	-> ranger	<--> file manager
 	-> wpa_supplicant <--> wifi connection
 	-> vim, nano	<--> text editor
-	-> pulseaudio 	<--> audio config (?)
-	-> 	<-->
-	-> 	<-->
-	-> 	<-->
+	-> git	<-->
+	-> docker, docker-compose <-->
+	-> nodejs, nvm(AUR) <-->
+	-> ssh	<-->
+	-> jdk, jre	<-->
 	-> 	<-->
 	-> 	<-->
 	-> 	<-->
@@ -16,7 +17,10 @@ console utilities
 
 with interface
 	-> evince	<--> .pdf reader
-	-> 	<-->
+	-> visual studio, atom, sublime	<-->
+	-> firefox	<-->
+	-> vlc	<-->
+	-> cura	<-->
 	-> 	<-->
 	-> 	<-->
 	-> 	<-->
