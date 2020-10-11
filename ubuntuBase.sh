@@ -3,7 +3,7 @@
 apt update -y && apt upgrade -y
 
 # i3 related
-apt install i3 compton feh -y
+apt install i3 compton feh lxappearance -y
 
 # General
 apt install git nodejs npm vim ranger docker.io docker-compose cura vlc -y
