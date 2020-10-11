@@ -1,3 +1,5 @@
+#!/bin/bash
+
 RES= `xrandr -q | grep \'DP-0\ connected\'`
 
 if [ "$RES" == "" ]; then
